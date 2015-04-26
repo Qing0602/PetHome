@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191706BA1AECECB6008BF68F /* HttpEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1917069D1AECECB6008BF68F /* HttpEngine.m */; };
+		191706BB1AECECB6008BF68F /* AsiGetRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 191706A01AECECB6008BF68F /* AsiGetRequestModel.m */; };
+		191706BD1AECECB6008BF68F /* UIModelCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 191706A41AECECB6008BF68F /* UIModelCoding.m */; };
+		191706BE1AECECB6008BF68F /* UserAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 191706A61AECECB6008BF68F /* UserAccountModel.m */; };
+		191706BF1AECECB6008BF68F /* NetWorkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 191706A81AECECB6008BF68F /* NetWorkService.m */; };
+		191706C01AECECB6008BF68F /* CustomOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 191706AB1AECECB6008BF68F /* CustomOperation.m */; };
+		191706C31AECECB6008BF68F /* FormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 191706B11AECECB6008BF68F /* FormDataRequest.m */; };
+		191706C41AECECB6008BF68F /* HTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 191706B31AECECB6008BF68F /* HTTPRequest.m */; };
+		191706CA1AECECE7008BF68F /* UIManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 191706C91AECECE7008BF68F /* UIManagement.m */; };
 		7417BEF41AE93A290097041B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7417BEF31AE93A290097041B /* main.m */; };
 		7417BEF71AE93A290097041B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7417BEF61AE93A290097041B /* AppDelegate.m */; };
 		7417BEFA1AE93A290097041B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7417BEF91AE93A290097041B /* ViewController.m */; };
@@ -28,6 +37,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1917069C1AECECB6008BF68F /* HttpEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpEngine.h; sourceTree = "<group>"; };
+		1917069D1AECECB6008BF68F /* HttpEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpEngine.m; sourceTree = "<group>"; };
+		1917069F1AECECB6008BF68F /* AsiGetRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsiGetRequestModel.h; sourceTree = "<group>"; };
+		191706A01AECECB6008BF68F /* AsiGetRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsiGetRequestModel.m; sourceTree = "<group>"; };
+		191706A31AECECB6008BF68F /* UIModelCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIModelCoding.h; sourceTree = "<group>"; };
+		191706A41AECECB6008BF68F /* UIModelCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIModelCoding.m; sourceTree = "<group>"; };
+		191706A51AECECB6008BF68F /* UserAccountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccountModel.h; sourceTree = "<group>"; };
+		191706A61AECECB6008BF68F /* UserAccountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccountModel.m; sourceTree = "<group>"; };
+		191706A71AECECB6008BF68F /* NetWorkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkService.h; sourceTree = "<group>"; };
+		191706A81AECECB6008BF68F /* NetWorkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkService.m; sourceTree = "<group>"; };
+		191706AA1AECECB6008BF68F /* CustomOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomOperation.h; sourceTree = "<group>"; };
+		191706AB1AECECB6008BF68F /* CustomOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomOperation.m; sourceTree = "<group>"; };
+		191706B01AECECB6008BF68F /* FormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormDataRequest.h; sourceTree = "<group>"; };
+		191706B11AECECB6008BF68F /* FormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormDataRequest.m; sourceTree = "<group>"; };
+		191706B21AECECB6008BF68F /* HTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequest.h; sourceTree = "<group>"; };
+		191706B31AECECB6008BF68F /* HTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequest.m; sourceTree = "<group>"; };
+		191706C81AECECE7008BF68F /* UIManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIManagement.h; sourceTree = "<group>"; };
+		191706C91AECECE7008BF68F /* UIManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIManagement.m; sourceTree = "<group>"; };
+		191706CB1AECEDFC008BF68F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6C5C09A7F26FE652D5392247 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7417BEEE1AE93A290097041B /* PetHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7417BEF21AE93A290097041B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +93,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1917069B1AECECB6008BF68F /* HttpEngine */ = {
+			isa = PBXGroup;
+			children = (
+				1917069C1AECECB6008BF68F /* HttpEngine.h */,
+				1917069D1AECECB6008BF68F /* HttpEngine.m */,
+				1917069E1AECECB6008BF68F /* Model */,
+				191706A71AECECB6008BF68F /* NetWorkService.h */,
+				191706A81AECECB6008BF68F /* NetWorkService.m */,
+				191706A91AECECB6008BF68F /* OP */,
+			);
+			path = HttpEngine;
+			sourceTree = "<group>";
+		};
+		1917069E1AECECB6008BF68F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1917069F1AECECB6008BF68F /* AsiGetRequestModel.h */,
+				191706A01AECECB6008BF68F /* AsiGetRequestModel.m */,
+				191706A31AECECB6008BF68F /* UIModelCoding.h */,
+				191706A41AECECB6008BF68F /* UIModelCoding.m */,
+				191706A51AECECB6008BF68F /* UserAccountModel.h */,
+				191706A61AECECB6008BF68F /* UserAccountModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		191706A91AECECB6008BF68F /* OP */ = {
+			isa = PBXGroup;
+			children = (
+				191706AA1AECECB6008BF68F /* CustomOperation.h */,
+				191706AB1AECECB6008BF68F /* CustomOperation.m */,
+				191706B01AECECB6008BF68F /* FormDataRequest.h */,
+				191706B11AECECB6008BF68F /* FormDataRequest.m */,
+				191706B21AECECB6008BF68F /* HTTPRequest.h */,
+				191706B31AECECB6008BF68F /* HTTPRequest.m */,
+			);
+			path = OP;
+			sourceTree = "<group>";
+		};
 		7417BEE51AE93A290097041B = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +155,7 @@
 		7417BEF01AE93A290097041B /* PetHome */ = {
 			isa = PBXGroup;
 			children = (
+				1917069B1AECECB6008BF68F /* HttpEngine */,
 				7417BEF51AE93A290097041B /* AppDelegate.h */,
 				7417BEF61AE93A290097041B /* AppDelegate.m */,
 				7417BEF81AE93A290097041B /* ViewController.h */,
@@ -96,6 +164,8 @@
 				7417BEFE1AE93A290097041B /* Images.xcassets */,
 				7417BF001AE93A290097041B /* LaunchScreen.xib */,
 				7417BEF11AE93A290097041B /* Supporting Files */,
+				191706C81AECECE7008BF68F /* UIManagement.h */,
+				191706C91AECECE7008BF68F /* UIManagement.m */,
 			);
 			path = PetHome;
 			sourceTree = "<group>";
@@ -105,6 +175,7 @@
 			children = (
 				7417BEF21AE93A290097041B /* Info.plist */,
 				7417BEF31AE93A290097041B /* main.m */,
+				191706CB1AECEDFC008BF68F /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -278,9 +349,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191706BD1AECECB6008BF68F /* UIModelCoding.m in Sources */,
+				191706CA1AECECE7008BF68F /* UIManagement.m in Sources */,
+				191706BE1AECECB6008BF68F /* UserAccountModel.m in Sources */,
 				7417BEFA1AE93A290097041B /* ViewController.m in Sources */,
+				191706C41AECECB6008BF68F /* HTTPRequest.m in Sources */,
+				191706C31AECECB6008BF68F /* FormDataRequest.m in Sources */,
+				191706C01AECECB6008BF68F /* CustomOperation.m in Sources */,
+				191706BB1AECECB6008BF68F /* AsiGetRequestModel.m in Sources */,
+				191706BA1AECECB6008BF68F /* HttpEngine.m in Sources */,
 				7417BEF71AE93A290097041B /* AppDelegate.m in Sources */,
 				7417BEF41AE93A290097041B /* main.m in Sources */,
+				191706BF1AECECB6008BF68F /* NetWorkService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
