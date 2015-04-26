@@ -14,6 +14,7 @@
 		7417BEFF1AE93A290097041B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7417BEFE1AE93A290097041B /* Images.xcassets */; };
 		7417BF021AE93A290097041B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7417BF001AE93A290097041B /* LaunchScreen.xib */; };
 		7417BF0E1AE93A290097041B /* PetHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7417BF0D1AE93A290097041B /* PetHomeTests.m */; };
+		9705885660B204AF8918642E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 824109C491EF8E96A6053D21 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C5C09A7F26FE652D5392247 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7417BEEE1AE93A290097041B /* PetHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7417BEF21AE93A290097041B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7417BEF31AE93A290097041B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		7417BF071AE93A290097041B /* PetHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7417BF0C1AE93A290097041B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7417BF0D1AE93A290097041B /* PetHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetHomeTests.m; sourceTree = "<group>"; };
+		824109C491EF8E96A6053D21 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71ED6ACF51CB56B744DE94F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9705885660B204AF8918642E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +71,8 @@
 				7417BEF01AE93A290097041B /* PetHome */,
 				7417BF0A1AE93A290097041B /* PetHomeTests */,
 				7417BEEF1AE93A290097041B /* Products */,
+				768D070EAAA3ADA93E2AED10 /* Pods */,
+				C7028EB117DA1844235ECDCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +126,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		768D070EAAA3ADA93E2AED10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C09A7F26FE652D5392247 /* Pods.debug.xcconfig */,
+				F71ED6ACF51CB56B744DE94F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7028EB117DA1844235ECDCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				824109C491EF8E96A6053D21 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7417BF111AE93A290097041B /* Build configuration list for PBXNativeTarget "PetHome" */;
 			buildPhases = (
+				8BE3DCC35F87C628A61F6A86 /* Check Pods Manifest.lock */,
 				7417BEEA1AE93A290097041B /* Sources */,
 				7417BEEB1AE93A290097041B /* Frameworks */,
 				7417BEEC1AE93A290097041B /* Resources */,
+				9A05FFA659F5F98562633854 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +239,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BE3DCC35F87C628A61F6A86 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A05FFA659F5F98562633854 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7417BEEA1AE93A290097041B /* Sources */ = {
@@ -345,6 +404,7 @@
 		};
 		7417BF121AE93A290097041B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5C09A7F26FE652D5392247 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PetHome/Info.plist;
@@ -355,6 +415,7 @@
 		};
 		7417BF131AE93A290097041B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71ED6ACF51CB56B744DE94F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PetHome/Info.plist;
@@ -416,6 +477,7 @@
 				7417BF131AE93A290097041B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7417BF141AE93A290097041B /* Build configuration list for PBXNativeTarget "PetHomeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +486,7 @@
 				7417BF161AE93A290097041B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
